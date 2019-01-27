@@ -1,7 +1,7 @@
 {
-    "name": "clientside",
+    "name": "clientside-toolchain",
     "version": "1.0.0",
-    "description": "quick boilerplate for client-side web work",
+    "description": "quick boilerplate for client-side work",
     "main": "./app/app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
