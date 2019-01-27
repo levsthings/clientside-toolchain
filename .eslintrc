@@ -1,0 +1,37 @@
+{
+    "extends": ["eslint:recommended", "standard"],
+    "parser": "babel-eslint",
+    "rules": {
+        "no-console": "off",
+        "indent": ["error", 4],
+        "space-before-function-paren": [
+            "error",
+            {
+                "named": "never",
+                "anonymous": "always",
+                "asyncArrow": "always"
+            }
+        ],
+        "prefer-const": [
+            "error",
+            {
+                "destructuring": "any",
+                "ignoreReadBeforeAssign": false
+            }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": false
+            }
+        ],
+        "arrow-parens": [
+            "error",
+            "as-needed",
+            {
+                "requireForBlockBody": true
+            }
+        ]
+    }
+}

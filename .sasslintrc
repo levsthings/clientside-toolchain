@@ -1,0 +1,15 @@
+files:
+  include: "**/*.s+(a|c)ss"
+  ignore:
+    - node_modules/**
+syntax:
+    include:
+      - scss
+      - sass
+rules:
+  indentation:
+    - 4
+    -
+      size: 4
+  no-misspelled-properties:
+    - 2
