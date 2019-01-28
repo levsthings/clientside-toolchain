@@ -27,7 +27,7 @@
         ]
     },
     "author": "levsthings",
-    "license": "MIT",
+    "license": "MPL-2.0",
     "engines": {
         "node": "11.6.0",
         "npm": "6.5.0-next.0"
