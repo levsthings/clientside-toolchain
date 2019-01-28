@@ -1,5 +1,4 @@
 files:
-    include: '**/*.s+(a|c)ss'
     ignore:
         - node_modules/**
 syntax:
