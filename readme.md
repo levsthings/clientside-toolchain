@@ -1,8 +1,43 @@
-### Development / Bundling
+## Usage:
 
-#### Available Commands
+-   Prerequisites: `node` and `npm`
+
+#### Clone the repo:
+
+```bash
+git clone https://github.com/levsthings/clientside-toolchain
+rm -rf .git && git init
+```
+
+#### Install dependencies:
+
+```bash
+npm i
+```
+
+#### Development mode with hot reloading:
+
+```
+npm run dev
+```
+
+#### Bundling in production mode:
+
+```
+npm run build
+```
+
+#### Environment & Stack
+
+`to be added`
+
+#### Additional Commands
+
+`to be added`
 
 #### Testing
+
+`to be added`
 
 #### Linters
 
